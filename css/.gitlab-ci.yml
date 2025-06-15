@@ -1,0 +1,15 @@
+# This is a special job name that tells GitLab to deploy to Pages
+pages:
+  stage: deploy
+  script:
+    # This script creates a 'public' directory and copies all your files into it.
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    # This tells GitLab that the 'public' folder contains the live website files.
+    paths:
+      - public
+  rules:
+    # This rule tells GitLab to only run this job on pushes to the 'main' branch.
+    - if: $CI_COMMIT_BRANCH == 'main'
