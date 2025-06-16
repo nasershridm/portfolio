@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naser - Software Engineer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
     <div class="container">
         <header class="header">
-            <img src="images/personal-picture.jpg" alt="personal" class="personal-image">
-            <h1>Hi, I'm Naser.</h1>
-            <p>
+            <img src="images/personal-picture.jpg" alt="personal" class="personal-image animate__animated animate__zoomIn">
+            <h1 class="animate__animated animate__fadeInDown">Hi, I'm Naser.</h1>
+            <p class="animate__animated animate__fadeInDown" style="animation-delay: 0.4s;">
                 A Software Engineer with 3 years of experience in crafting intuitive mobile applications,
                 built upon a strong foundation in Laravel and web development.
             </p>
-            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="#contact" class="btn animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">Get in Touch</a>
         </header>
 
         <main>
             <section id="experience">
-                <h2>Work Experience</h2>
+                <h2 class="js-scroll">Work Experience</h2>
                 <div class="experience-list">
 
-                    <div class="experience-item">
+                    <div class="experience-item js-scroll">
                         <h3>Mobile App Developer</h3>
                         <p class="experience-meta">Tech Solutions Inc. | Vienna, Austria | June 2022 - Present</p>
                         <ul>
@@ -41,7 +42,7 @@
                         </ul>
                     </div>
 
-                    <div class="experience-item">
+                    <div class="experience-item js-scroll">
                         <h3>Web Developer</h3>
                         <p class="experience-meta">WebCrafters GmbH | Vienna, Austria | May 2020 - June 2022</p>
                         <ul>
@@ -53,7 +54,7 @@
                         </ul>
                     </div>
 
-                    <div class="experience-item">
+                    <div class="experience-item js-scroll">
                         <h3>Freelance Web & Mobile Developer</h3>
                         <p class="experience-meta">Self-Employed | Jan 2019 - Present</p>
                         <ul>
@@ -65,7 +66,7 @@
                         </ul>
                     </div>
 
-                    <div class="experience-item">
+                    <div class="experience-item js-scroll">
                         <h3>Junior Developer</h3>
                         <p class="experience-meta">Innovate Startup | Damascus, Syria | Jan 2019 - April 2020</p>
                         <ul>
@@ -80,11 +81,12 @@
 
                 </div>
             </section>
+            
             <section id="projects">
-                <h2>My Projects</h2>
+                <h2 class="js-scroll">My Projects</h2>
                 <div class="project-grid">
 
-                    <div class="project-card">
+                    <div class="project-card js-scroll">
                         <h3>Project One Name</h3>
                         <p>
                             A short, engaging description of your project. Explain the problem it solves
@@ -97,7 +99,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card js-scroll">
                         <h3>Project Two Name</h3>
                         <p>
                             This is another project. Maybe an Android app or a full-stack web application.
@@ -110,7 +112,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card js-scroll">
                         <h3>Project Three Name</h3>
                         <p>
                             A personal project or a tool you built. Showcasing personal work demonstrates
@@ -127,12 +129,12 @@
             </section>
 
             <section id="contact" class="contact">
-                <h2>Contact Me</h2>
-                <p>
+                <h2 class="js-scroll">Contact Me</h2>
+                <p class="js-scroll">
                     I'm currently seeking new opportunities. Feel free to reach out!
                 </p>
-                <a href="mailto:nasershwork@gmail.com" class="btn">nasershwork@gmail.com</a>
-                <p style="margin-top: 30px;">
+                <a href="mailto:nasershwork@gmail.com" class="btn js-scroll">nasershwork@gmail.com</a>
+                <p style="margin-top: 30px;" class="js-scroll">
                     <a href="https://github.com/yourusername" target="_blank">GitHub</a> &nbsp;&bull;&nbsp;
                     <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
                 </p>
@@ -140,12 +142,13 @@
 
         </main>
 
-        <footer class="footer">
+        <footer class="footer js-scroll">
             <p>&copy; 2025 Naser. All Rights Reserved.</p>
         </footer>
 
     </div>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>

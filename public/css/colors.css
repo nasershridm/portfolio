@@ -1,18 +1,13 @@
-/* Palette: "Subtle & Professional Dark"
-   A dark mode designed for comfort and readability,
-   avoiding overly saturated accent colors.
-*/
-
 :root {
   /* Main palette colors */
-  --primary-color: #319795;      /* Muted Teal - for buttons and links. Clear but not 'shiny'. */
-  --secondary-color: #4a5568;    /* Medium Slate Grey - for borders and highlights. */
+  --primary-color: #319795;
+  --secondary-color: #4a5568;
 
   /* Text colors */
-  --text-primary: #e2e8f0;      /* Soft Off-White - for main text and headings. */
-  --text-secondary: #a0aec0;    /* Lighter Grey - for secondary, less important text. */
+  --text-primary: #e2e8f0;
+  --text-secondary: #a0aec0;
 
   /* Background colors */
-  --bg-light: #1a202c;           /* Dark Charcoal/Slate - the main page background. */
-  --bg-card: #2d3748;           /* Lighter Slate - for cards, to give them subtle depth. */
+  --bg-light: #1a202c;
+  --bg-card: #2d3748;
 }
