@@ -6,34 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Naser - Software Engineer Portfolio">
-
     <title>Naser - Software Engineer</title>
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-
     <div class="container">
-        <header class="header">
-            <img src="images/personal-picture.jpg" alt="personal"
-                class="personal-image animate__animated animate__zoomIn">
-            <h1 class="animate__animated animate__fadeInDown">Hi, I'm Naser.</h1>
-            <p class="animate__animated animate__fadeInDown" style="animation-delay: 0.4s;">
-                An accomplished Software Engineer & Flutter Developer with 3 years of hands-on experience building
-                testing & deploying cross-platform mobile applications. I've also worked a bit with Laravel for
-                full-stack development.
-            </p>
-            <a href="#contact" class="btn animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">Get in
-                Touch</a>
-        </header>
+        <header class="header" id="header"></header>
 
         <main>
-
             <section id="experience">
                 <h2 class="js-scroll">Work Experience</h2>
                 <div class="experience-list"></div>
             </section>
+
             <section id="projects">
                 <h2 class="js-scroll">Projects & Contributions</h2>
                 <div class="project-grid"></div>
@@ -41,37 +30,18 @@
 
             <section id="education">
                 <h2 class="js-scroll">Education</h2>
-                <div class="education-item js-scroll">
-                    <h3>Information Technology Engineering</h3>
-                    <p class="education-meta">Damascus University | 2019-2024</p>
-                    <p>Specialization: Software Engineering</p>
-                    <p>Status: Graduated</p>
-                </div>
+                <div id="education-content" class="js-scroll"></div>
             </section>
-
-
 
             <section id="contact" class="contact">
                 <h2 class="js-scroll">Contact Me</h2>
-                <p class="js-scroll">
-                    I'm currently seeking new opportunities. Feel free to reach out!
-                </p>
-                <a href="mailto:nasershwork@gmail.com" class="btn js-scroll">nasershwork@gmail.com</a>
-                <p style="margin-top: 15px;" class="js-scroll">
-                    +963 940749492
-                </p>
-                <p style="margin-top: 30px;" class="js-scroll">
-                    <a href="https://sy.linkedin.com/in/naser-shridm" target="_blank">LinkedIn</a>
-                </p>
+                <div id="contact-content" class="js-scroll"></div>
             </section>
-
         </main>
 
-        <footer class="footer js-scroll">
-            <p>&copy; 2025 Naser. All Rights Reserved.</p>
-        </footer>
-
+        <footer class="footer js-scroll" id="footer"></footer>
     </div>
+
     <script type="module" src="js/main.js"></script>
 </body>
 

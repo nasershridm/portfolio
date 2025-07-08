@@ -22,6 +22,33 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(element);
     });
 
+    // Header
+    document.getElementById("header").innerHTML = `
+    <img src="${profileData.imageUrl}" alt="personal"
+        class="personal-image animate__animated animate__zoomIn">
+    <h1 class="animate__animated animate__fadeInDown">Hi, I'm ${profileData.name}.</h1>
+    <p class="animate__animated animate__fadeInDown" style="animation-delay: 0.4s;">
+        ${profileData.summary}
+    </p>
+    <a href="#contact" class="btn animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">Get in Touch</a>`;
+
+    // Education
+    document.getElementById("education-content").innerHTML = `
+    <h3>${profileData.education.degree}</h3>
+    <p class="education-meta">${profileData.education.school} | ${profileData.education.years}</p>
+    <p>Specialization: ${profileData.education.specialization}</p>
+    <p>Status: ${profileData.education.status}</p>`;
+
+    // Contact
+    document.getElementById("contact-content").innerHTML = `
+    <p>I'm currently seeking new opportunities. Feel free to reach out!</p>
+    <a href="mailto:${profileData.contactEmail}" class="btn js-scroll">${profileData.contactEmail}</a>
+    <p style="margin-top: 15px;">${profileData.phone}</p>
+    <p style="margin-top: 30px;">
+        <a href="${profileData.linkedIn}" target="_blank">LinkedIn</a>
+    </p>`;
+
+    document.getElementById("footer").innerHTML = `<p>${profileData.footer}</p>`;
 
     window.addExperienceItem = (item) => {
         const experienceList = document.querySelector('.experience-list');
@@ -136,6 +163,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /// my data 
+
+const profileData = {
+    name: "Naser",
+    role: "Software Engineer & Flutter Developer",
+    summary: "An accomplished Software Engineer & Flutter Developer with 3 years of experience building, testing, and deploying cross-platform mobile applicationsAn accomplished Software Engineer & Flutter Developer with 3 years of hands-on experience building testing & deploying cross-platform mobile applications. I've also worked a bit with Laravel for full-stack development.",
+    imageUrl: "images/personal-picture.jpg",
+    contactEmail: "nasershwork@gmail.com",
+    phone: "+963 940749492",
+    linkedIn: "https://sy.linkedin.com/in/naser-shridm",
+    education: {
+        degree: "Information Technology Engineering",
+        school: "Damascus University",
+        years: "2019–2024",
+        specialization: "Software Engineering",
+        status: "Graduated"
+    },
+    footer: "© 2025 Naser. All Rights Reserved."
+};
 
 const experienceData = [
     {
