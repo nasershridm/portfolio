@@ -16,7 +16,7 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 17px;
-  background: linear-gradient(to right, #0d1016, #091b34);
+  background: linear-gradient(to right, var(--bg-dark), var(--bg-light));
 }
 
 .container {
@@ -129,8 +129,7 @@ a:hover {
 
 .project-card .tech-tags span {
   display: inline-block;
-  background-color: var(--bg-dark);
-  color: var(--text-secondary);
+  background-color: var(--bg-light);
   font-size: 0.65rem;
   padding: 4px 8px;
   border-radius: 4px;
@@ -321,33 +320,48 @@ a:hover {
   }
 }
 
-/* --- Mobile: top horizontal nav, only icons --- */
+/* --- Mobile: bottom horizontal nav, only icons --- */
 @media (max-width: 768px) {
   .side-nav {
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: auto;
     transform: none;
+    /* width: 100%; */
+    height: 70px;
+    background: var(--bg-light);
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 0;
-    border-radius: 0;
-    background: linear-gradient(135deg, #0d1016, #0a1f3d);
+    align-items: center;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 0.6s ease forwards;
   }
 
-  /* hide text */
+  /* hide text labels */
   .side-nav .nav-bar-item span {
     display: none;
   }
 
-  /* optional: make icons smaller on mobile */
+  /* smaller icons */
   .side-nav .nav-bar-item svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
+  }
+
+  /* center and space icons properly */
+  .side-nav .nav-bar-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
+
 
 /* Animations */
 :root {
