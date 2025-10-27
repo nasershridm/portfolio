@@ -1,8 +1,5 @@
 import { profileData, experienceData, projectData } from './data.js';
 
-history.scrollRestoration = 'manual';
-window.scrollTo(0, 0);
-
 document.addEventListener('DOMContentLoaded', () => {
 
     const handleIntersection = (entries, observer) => {
@@ -22,7 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
     elementsToAnimate.forEach(element => {
         observer.observe(element);
     });
-
+    fetch('nav-bar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+        })
+        .catch(err => console.error('Failed to load nav:', err));
+    document.getElementById("title").textContent = profileData.name+ "-Portfolio";
     // Header
     document.getElementById("header").innerHTML = `
     <div class="row">

@@ -12,10 +12,11 @@ html {
 
 body {
   font-family: "Times New Roman", "Open Sans", sans-serif;
-  background-color: var(--bg-light);
+  background-color: var(--bg-dark);
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 17px;
+  background: linear-gradient(to right, #0d1016, #091b34);
 }
 
 .container {
@@ -128,7 +129,7 @@ a:hover {
 
 .project-card .tech-tags span {
   display: inline-block;
-  background-color: var(--bg-light);
+  background-color: var(--bg-dark);
   color: var(--text-secondary);
   font-size: 0.65rem;
   padding: 4px 8px;
@@ -281,10 +282,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--bg-light);
   padding: 20px 10px;
   border-radius: 0 10px 10px 0;
   z-index: 1000;
+  animation: fadeInLeft 0.6s ease forwards;
 }
 
 .side-nav .nav-bar-item {
@@ -318,28 +319,22 @@ a:hover {
     display: none;
     /* hide text */
   }
-
-  .side-nav {
-    width: 60px;
-    /* keep only icons */
-    padding: 10px;
-  }
 }
 
 /* --- Mobile: top horizontal nav, only icons --- */
 @media (max-width: 768px) {
   .side-nav {
-    top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 10%;
     transform: none;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px 0;
     border-radius: 0;
-    background-color: var(--bg-light);
+    background: linear-gradient(135deg, #0d1016, #0a1f3d);
   }
 
   /* hide text */
