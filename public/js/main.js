@@ -25,13 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Header
     document.getElementById("header").innerHTML = `
-    <img src="${profileData.imageUrl}" alt="personal"
-        class="personal-image animate__animated animate__zoomIn">
+    <div class="row">
+    <div>
     <h1 class="animate__animated animate__fadeInDown">Hi, I'm ${profileData.name}.</h1>
     <p class="animate__animated animate__fadeInDown" style="animation-delay: 0.4s;">
         ${profileData.summary}
     </p>
-    <a href="#contact" class="btn animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">Get in Touch</a>`;
+    <a href="#contact" class="btn animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">Get in Touch</a></div>
+    <img src="${profileData.imageUrl}" alt="personal"
+        class="personal-image animate__animated animate__zoomIn">
+    </div>`;
 
     // Education
     document.getElementById("education-content").innerHTML = `
