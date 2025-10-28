@@ -242,6 +242,16 @@ a:hover {
   margin-bottom: 10px;
 }
 
+/* Skills Section */
+.skills-list {
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+
+.skills-list li {
+  margin: 10px;
+}
+
 /* Personal Image */
 .personal-image {
   height: 50%;
@@ -274,7 +284,7 @@ a:hover {
 
 .side-nav {
   position: fixed;
-  height: 60%;
+  height: 70%;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
@@ -317,6 +327,14 @@ a:hover {
   .side-nav .nav-bar-item span {
     display: none;
     /* hide text */
+  }
+
+  .side-nav .nav-bar-item {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 8px;
+    transition: background-color 0.3s, transform 0.4s;
+
   }
 }
 

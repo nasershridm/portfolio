@@ -1,4 +1,4 @@
-import { profileData, experienceData, projectData } from './data.js';
+import { profileData, experienceData, projectData, skillsData } from './data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('nav-placeholder').innerHTML = data;
         })
         .catch(err => console.error('Failed to load nav:', err));
-    document.getElementById("title").textContent = profileData.name+ "-Portfolio";
+    document.getElementById("title").textContent = profileData.name + "-Portfolio";
     // Header
     document.getElementById("header").innerHTML = `
     <div class="row">
@@ -56,6 +56,19 @@ document.addEventListener('DOMContentLoaded', () => {
     </p>`;
 
     document.getElementById("footer").innerHTML = `<p>${profileData.footer}</p>`;
+    window.addSkillItem = (item) => {
+        const skillsList = document.querySelector('.skills-list');
+        if (!skillsList) return;
+
+        const skillItem = document.createElement('li');
+        skillItem.classList.add('skill-item', 'js-scroll');
+        skillItem.textContent = item.title;
+
+        skillsList.appendChild(skillItem);
+        observer.observe(skillItem);
+    };
+
+
 
     window.addExperienceItem = (item) => {
         const experienceList = document.querySelector('.experience-list');
@@ -165,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
     projectData.forEach(item => {
         window.addProjectItem(item);
     });
+    skillsData.forEach(item => window.addSkillItem(item));
 
 });
 

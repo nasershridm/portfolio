@@ -126,3 +126,39 @@ export const projectData = [
 
 
 ];
+//              skills
+export const skillsData = [
+    {
+        title: "Flutter Development: Cross-platform mobile apps for Android & iOS.",
+    },
+    {
+        title: "State Management: Bloc, Getx, and clean architecture patterns.",
+    },
+    {
+        title: "Dart Programming: Advanced knowledge for Flutter projects.",
+    },
+    {
+        title: "API Integration: REST APIs, JSON parsing, and error handling.",
+    },
+    {
+        title: "Unit Testing & Mocking: Using Mocktail for testable, maintainable code.",
+    },
+    {
+        title: "Firebase Services: Firebase Messaging, push notifications.",
+    },
+    {
+        title: "Backend Development: Laravel 10 with PHP 8, RESTful API creation.",
+    },
+    {
+        title: "Database Management: MySQL integration and queries.",
+    },
+    {
+        title: "Version Control & Deployment: Git, GitHub.",
+    },
+    {
+        title: "Frontend Styling: CSS, responsive design, Tailwind, and Bootstrap basics.",
+    },
+    {
+        title: "Software Engineering Practices: Clean code, SOLID principles, dependency injection.",
+    },
+];
