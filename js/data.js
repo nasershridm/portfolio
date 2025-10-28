@@ -4,7 +4,7 @@
 export const profileData = {
     name: "Naser",
     role: "Software Engineer & Flutter Developer",
-    summary: "An accomplished Software Engineer & Flutter Developer with 3 years of experience building, testing, and deploying cross-platform mobile applicationsAn accomplished Software Engineer & Flutter Developer with 3 years of hands-on experience building testing & deploying cross-platform mobile applications. I've also worked a bit with Laravel for full-stack development.",
+    summary: "An accomplished Software Engineer & Flutter Developer with 3 years of hands-on experience building testing & deploying cross-platform mobile applications. Recently expanded into full-stack development with Laravel, gaining solid experience in backend APIs, authentication, and database design. I enjoy working across the full product lifecycle",
     imageUrl: "images/personal-picture.jpg",
     contactEmail: "nasershwork@gmail.com",
     phone: "+963 940749492",
