@@ -147,7 +147,7 @@ export const skillsData = [
         title: "Firebase Services: Firebase Messaging, push notifications.",
     },
     {
-        title: "Backend Development: Laravel 10 with PHP 8, RESTful API creation.",
+        title: "Backend Development: Laravel, RESTful API creation.",
     },
     {
         title: "Database Management: MySQL integration and queries.",
