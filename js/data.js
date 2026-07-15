@@ -71,6 +71,14 @@ export const projectData = [
         googlePlayUrl: "https://play.google.com/store/apps/details?id=com.naser.car_wash"
     },
     {
+        title: "BOOVIO: Billing System",
+        description: "Easy-to-use platform that helps users book services and appointments quickly and securely. users can easily search for beauty salons and barbershops, and view details about each service provider, including location, reviews, and prices.",
+        technologies: ["Flutter Mobile", "Flutter Web", "Google Maps", "Google Play", "App Store"],
+        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.boovio.boovio",
+        appStoreUrl: "https://apps.apple.com/us/app/boovio/id6748587784"
+
+    },
+    {
         title: "ATHEK: Billing System",
         description: "A billing application that allows customers, including sellers and buyers, to organize their spending. It features analysis charts to track expenditures across different categories.",
         technologies: ["Flutter Mobile", "Flutter Web", "Google Maps", "Google Play", "App Store"],
