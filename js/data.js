@@ -73,7 +73,7 @@ export const projectData = [
     {
         title: "BOOVIO: Billing System",
         description: "Easy-to-use platform that helps users book services and appointments quickly and securely. users can easily search for beauty salons and barbershops, and view details about each service provider, including location, reviews, and prices.",
-        technologies: ["Flutter Mobile", "Flutter Web", "Google Maps", "Google Play", "App Store"],
+        technologies: ["Flutter Mobile","Google Maps", "Google Play", "App Store"],
         googlePlayUrl: "https://play.google.com/store/apps/details?id=com.boovio.boovio",
         appStoreUrl: "https://apps.apple.com/us/app/boovio/id6748587784"
 
@@ -94,14 +94,7 @@ export const projectData = [
         appStoreUrl: "https://apps.apple.com/us/app/boxtogo/id1630559306?platform=iphone"
 
     },
-    {
-        title: "Wasel",
-        description: "comprehensive platform providing e-commerce and delivery services. It allows users to shop online for various products and have them delivered, simplifying the process of buying and receiving goods.",
-        technologies: ["Flutter", "Google Maps", "Google Play", "App Store"],
-        // googlePlayUrl: "https://play.google.com/store/apps/details?id=com.ixcoders.wasel&hl=en",
-        // appStoreUrl: "https://apps.apple.com/us/app/wasel-%D9%88%D8%A7%D8%B5%D9%84/id6443812195"
-
-    },
+    
     {
         title: "Postajji",
         description: "comprehensive platform providing e-commerce and delivery services. It allows users to shop online for various products and have them delivered, simplifying the process of buying and receiving goods.",
@@ -123,6 +116,14 @@ export const projectData = [
         description: "The Civil Society Empowerment Unit prioritizes human capital to strengthen civil society and foster civic space, aiming for a dignified, rights-based, and participative civil system.",
         technologies: ["laravel", "blade", "Html Css Js", "Project Management"],
         website: "https://cseu.org/"
+    },
+    {
+        title: "Wasel",
+        description: "comprehensive platform providing e-commerce and delivery services. It allows users to shop online for various products and have them delivered, simplifying the process of buying and receiving goods.",
+        technologies: ["Flutter", "Google Maps", "Google Play", "App Store"],
+        // googlePlayUrl: "https://play.google.com/store/apps/details?id=com.ixcoders.wasel&hl=en",
+        // appStoreUrl: "https://apps.apple.com/us/app/wasel-%D9%88%D8%A7%D8%B5%D9%84/id6443812195"
+
     },
     {
         title: "Fly Damascus",
