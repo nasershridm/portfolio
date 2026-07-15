@@ -4,7 +4,7 @@
 export const profileData = {
     name: "Naser",
     role: "Software Engineer & Flutter Developer",
-    summary: "An accomplished Software Engineer & Flutter Developer with 3 years of hands-on experience building testing & deploying cross-platform mobile applications. Recently expanded into full-stack development with Laravel, gaining solid experience in backend APIs, authentication, and database design. I enjoy working across the full product lifecycle",
+    summary: "Software Engineer with 4 years of experience in Flutter development and expertise in Laravel full-stack development and Odoo ERP customization. Experienced in building and deploying cross-platform mobile, web, and ERP solutions, developing custom Odoo modules, integrating APIs, and publishing applications to the App Store and Google Play. Strong background in Google Maps integration, state management and scalable application architecture.",
     imageUrl: "images/personal-picture.jpg",
     contactEmail: "nasershwork@gmail.com",
     phone: "+963 940749492",
@@ -21,10 +21,10 @@ export const profileData = {
 //              experience
 export const experienceData = [
     {
-        title: "Mobile Developer, Laravel full stack",
-        meta: "Mozaik | Sep 2024 - UNTIL NOW",
+        title: "Mobile Developer, Laravel Full Stack, Odoo Developer",
+        meta: "Mozaik | Sep 2024 - Present",
         duties: [
-            "Currently engaged as a Mobile Developer and Laravel Full Stack Developer."
+            "Currently working as a Mobile Developer, Laravel Full Stack Developer, and Odoo Developer, developing mobile applications, backend systems, and ERP solutions."
         ]
     },
     {
@@ -38,7 +38,7 @@ export const experienceData = [
         ]
     },
     {
-        title: "Flutter Mobile Developer",
+        title: "Flutter Developer",
         meta: "90-Soft | Nov 2022 - Jul 2023",
         duties: [
             "Developed and maintained several large-scale applications, including an e-commerce platform (WASEL delivery, store, wholesaler), a task management system (Syriatel Task Management), and 'ABO,' an e-commerce application for the Iraqi market.",
@@ -57,6 +57,19 @@ export const experienceData = [
 ];
 //              projects
 export const projectData = [
+    {
+        title: "BAREEQ: Mobile Car Wash System",
+        description: "A complete on-demand car wash platform consisting of customer and driver mobile applications, an admin dashboard, real-time driver tracking, online payments, service scheduling, push notifications, and order management.",
+        technologies: [
+            "Flutter Mobile",
+            "Laravel Backend",
+            "Google Maps",
+            "Google Play",
+            "App Store",
+            "Real-time Tracking"
+        ],
+        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.naser.car_wash"
+    },
     {
         title: "ATHEK: Billing System",
         description: "A billing application that allows customers, including sellers and buyers, to organize their spending. It features analysis charts to track expenditures across different categories.",
@@ -145,6 +158,9 @@ export const skillsData = [
     },
     {
         title: "Firebase Services: Firebase Messaging, push notifications.",
+    },
+    {
+    title: "Odoo ERP Development: Custom modules, website customization, Python, XML, and ORM.",
     },
     {
         title: "Backend Development: Laravel, RESTful API creation.",
