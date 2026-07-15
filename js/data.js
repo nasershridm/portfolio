@@ -16,7 +16,7 @@ export const profileData = {
         specialization: "Software Engineering",
         status: "Graduated"
     },
-    footer: "© 2025 Naser. All Rights Reserved."
+    footer: "© 2026 Naser. All Rights Reserved."
 };
 //              experience
 export const experienceData = [
@@ -74,15 +74,15 @@ export const projectData = [
         title: "ATHEK: Billing System",
         description: "A billing application that allows customers, including sellers and buyers, to organize their spending. It features analysis charts to track expenditures across different categories.",
         technologies: ["Flutter Mobile", "Flutter Web", "Google Maps", "Google Play", "App Store"],
-        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.vroad.athekllc",
-        appStoreUrl: "https://apps.apple.com/nl/app/athek-%D8%A3%D8%AB%D9%82/id6478430128"
+        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.athek.app",
+        // appStoreUrl: "https://apps.apple.com/nl/app/athek-%D8%A3%D8%AB%D9%82/id6478430128"
 
     },
     {
         title: "BoxToGo: e-commerce",
         description: "An e-commerce platform with a unique gift feature, built for Syria and Lebanon. It provides a smooth, reliable experience for buying diverse products and sending thoughtful gifts across the region.",
         technologies: ["Flutter", "Google Maps", "Google Play", "App Store"],
-        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.vroad.boxtogo",
+        // googlePlayUrl: "https://play.google.com/store/apps/details?id=com.vroad.boxtogo",
         appStoreUrl: "https://apps.apple.com/us/app/boxtogo/id1630559306?platform=iphone"
 
     },
@@ -90,8 +90,8 @@ export const projectData = [
         title: "Wasel",
         description: "comprehensive platform providing e-commerce and delivery services. It allows users to shop online for various products and have them delivered, simplifying the process of buying and receiving goods.",
         technologies: ["Flutter", "Google Maps", "Google Play", "App Store"],
-        googlePlayUrl: "https://play.google.com/store/apps/details?id=com.ixcoders.wasel&hl=en",
-        appStoreUrl: "https://apps.apple.com/us/app/wasel-%D9%88%D8%A7%D8%B5%D9%84/id6443812195"
+        // googlePlayUrl: "https://play.google.com/store/apps/details?id=com.ixcoders.wasel&hl=en",
+        // appStoreUrl: "https://apps.apple.com/us/app/wasel-%D9%88%D8%A7%D8%B5%D9%84/id6443812195"
 
     },
     {
@@ -99,7 +99,7 @@ export const projectData = [
         description: "comprehensive platform providing e-commerce and delivery services. It allows users to shop online for various products and have them delivered, simplifying the process of buying and receiving goods.",
         technologies: ["Flutter", "Google Maps", "Google Play", "App Store"],
         googlePlayUrl: "https://play.google.com/store/apps/details?id=com.vroad.postajjistore",
-        appStoreUrl: "https://apps.apple.com/app/id123456789"
+        appStoreUrl: "https://apps.apple.com/us/app/postajji-%D8%A8%D9%88%D8%B3%D8%B7%D8%AC%D9%8A/id6746733875"
 
     },
     {
